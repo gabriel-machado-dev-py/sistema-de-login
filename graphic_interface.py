@@ -200,7 +200,7 @@ class App(tk.CTk, BackEnd):
         
         # mostrar senha
         self.show_password_var = tk.StringVar(value="off")
-        self.show_password = tk.CTkCheckBox(self.frame_cadastro, text="Clique para ver a senha", font=("Century Gothic", 12), variable=self.show_password_var, onvalue="on", offvalue="off", command=self.toggle_password_visibility)
+        self.show_password = tk.CTkCheckBox(self.frame_cadastro, text="Clique para ver a senha", font=("Century Gothic", 12), variable=self.show_password_var, onvalue="on", offvalue="off", command=self.toggle_password_visibility_cadastro)
         self.show_password.grid(row=5, column=0, padx=10, pady=5)
         
         # Fazer cadastro
@@ -226,7 +226,7 @@ class App(tk.CTk, BackEnd):
         self.password.delete(0, END)
 
     # Mostrar ou esconder a senha da tela de cadastro
-    def toggle_password_visibility(self) -> None:
+    def toggle_password_visibility_cadastro(self) -> None:
         if self.show_password_var.get() == "on":
             self.password_cadastro.configure(show="")
             self.confirm_password_cadastro.configure(show="")
