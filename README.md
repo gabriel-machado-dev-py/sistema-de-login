@@ -18,14 +18,14 @@ Este é um projeto em python criado para ser um **Sistema de login** para regist
      senha).
    * Verifica as credenciais no banco de dados SQLite.
    * Permite que o usuário veja sua senha
-   
+
 3. **Banco de Dados:**
 
    * Integrado com criação e validação de usuário e senha
 
 ## Estrutura de pastas 🧱
 
-/graphic_interface.py  # Código-fonte principal da aplicação 
+/graphic_interface.py  # Código-fonte principal da aplicação
 /astronauta.png        # Imagem da aplicação
 /requirements.txt      # Tecnologias hospedadas para instalação
 
@@ -50,7 +50,7 @@ Este é um projeto em python criado para ser um **Sistema de login** para regist
    ```bash
    git clone https://github.com/gabriel-machado-dev-py/sistema-de-login.git
    ```
-   
+
 2. Configure um ambiente virtual (opcional, mas recomendado):
 
    ```bash
@@ -63,9 +63,14 @@ Este é um projeto em python criado para ser um **Sistema de login** para regist
 
    ```bash
    pip install -r requirements.txt
-   
+
+   ```
+## Executável
+
+-> Baixe mysetup.exe
+
+
 
 ## Licença 📝
 
 Este projeto está licenciado sob a Licença MIT. Consulte o arquivo `LICENSE` para mais detalhes.
-   ```
