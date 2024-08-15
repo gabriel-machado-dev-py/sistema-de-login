@@ -22,6 +22,7 @@ Este é um projeto em python criado para ser um **Sistema de login** para regist
 3. **Banco de Dados:**
 
    * Integrado com criação e validação de usuário e senha
+   * Criptografia de senha(hashlib)
 
 ## Estrutura de pastas 🧱
 
@@ -35,6 +36,7 @@ Este é um projeto em python criado para ser um **Sistema de login** para regist
 - **customtkinter**: Ambiente para criação da interface gráfica
 - **tkinter**: Usado para algumas funcionalidades no projeto como: messagebox
 - **sqlite3**: Banco de dados usado no projeto
+- **hashlib**: Usado para criptografar a senha, dando mais segurança
 
 ## Configuração para Desenvolvedores 🔧
 
